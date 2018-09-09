@@ -1,0 +1,16 @@
+.bar {
+    height: 20px;
+    width: calc(100% / 24);
+}
+
+.off {
+    background-color: green;
+}
+
+.mid {
+    background-color: yellow;
+}
+
+.on {
+    background-color: red;
+}

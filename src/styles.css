@@ -1,0 +1,7 @@
+/* add css styles here (optional) */
+
+.tou {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
