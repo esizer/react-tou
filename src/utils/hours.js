@@ -1,8 +1,12 @@
-const getHours = (season) => {
+import getSeason from './seasons'
+
+const getHours = (date) => {
   const seasons = {
     'summer': ['off', 'mid', 'on'],
     'winter': ['off', 'on', 'mid']
   }
+
+  const season = getSeason(date)
 
   if (season === 'holiday') {
     return Array(24).fill('off')

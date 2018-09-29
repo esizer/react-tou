@@ -6,8 +6,7 @@ export default class App extends Component {
   render () {
     return (
       <div>
-        <TOU />
-        <TOU date="2018-09-03" />
+        <TOU date="2018-09-04" />
       </div>
     )
   }
