@@ -28,11 +28,12 @@ class Example extends Component {
 
 ## To do
 
- - [ ] Holiday tracking
+ - [x] Holiday tracking
  - [ ] Styling
  - [ ] Period Pricing
  - [ ] Realtime tracking
  - [ ] Date picker
+ - [ ] Proper business day holidays
  - [ ] Themes
 
 ## License
