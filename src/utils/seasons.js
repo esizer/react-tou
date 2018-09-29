@@ -9,8 +9,6 @@ const getSeason = (date = false) => {
 
   date = momentDate.format('YYYY-MM-DD hh:mm:ss')
 
-  console.log(date)
-
   if (
     (momentDate.format('e') === '6') ||
     (momentDate.format('e') === '0') ||
